@@ -1,1 +1,2 @@
 # ImperoDetect
+ImperoDetect is a lightweight monitoring tool that watches network ports for outgoing data activity. When data is detected being sent, the software uses the keyboard’s Scroll Lock light as a visual indicator by blinking it. This provides a simple, instant way to see when network communication is happening, which is especially useful in school environments where background monitoring or management software may be active.
