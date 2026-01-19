@@ -1,0 +1,102 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ImperoViewingDetector/1.0.0": {
+        "dependencies": {
+          "Libpcap": "0.1.5",
+          "PacketDotNet": "1.4.8",
+          "SharpPcap": "6.3.1"
+        },
+        "runtime": {
+          "ImperoViewingDetector.dll": {}
+        }
+      },
+      "Libpcap/0.1.5": {
+        "runtime": {
+          "lib/net7.0/Libpcap.dll": {
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/lib/net7.0/Libpcap.dll": {
+            "rid": "linux-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          },
+          "runtimes/osx-x64/lib/net7.0/Libpcap.dll": {
+            "rid": "osx-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          },
+          "runtimes/win-x64/lib/net7.0/Libpcap.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          },
+          "runtimes/win-x86/lib/net7.0/Libpcap.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          }
+        }
+      },
+      "PacketDotNet/1.4.8": {
+        "runtime": {
+          "lib/net9.0/PacketDotNet.dll": {
+            "assemblyVersion": "1.4.8.0",
+            "fileVersion": "1.4.8.0"
+          }
+        }
+      },
+      "SharpPcap/6.3.1": {
+        "dependencies": {
+          "PacketDotNet": "1.4.8"
+        },
+        "runtime": {
+          "lib/net8.0/SharpPcap.dll": {
+            "assemblyVersion": "6.3.1.0",
+            "fileVersion": "6.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImperoViewingDetector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Libpcap/0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3v0NKGRYTFWpXOldTfRC/49S6f1qiRZ0yBs3QRfx48Y8hreoQEO5O9HVueMY87DXtCfKYTUvW3V/BXtTumecWw==",
+      "path": "libpcap/0.1.5",
+      "hashPath": "libpcap.0.1.5.nupkg.sha512"
+    },
+    "PacketDotNet/1.4.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j4C4QaJmaPCk0KXsIdsZqmBteKWj5znXBmfbPpu48rE5SW2xwXKVlRf7C3g7VM9aZqMHIQedApEuC71nNX5PaQ==",
+      "path": "packetdotnet/1.4.8",
+      "hashPath": "packetdotnet.1.4.8.nupkg.sha512"
+    },
+    "SharpPcap/6.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EWclXz+QdffBRppFR7GDBLyKiAz045RGvu4t4gcMGocVMEq6dRfCnAEx7Ep6qxcPPhH2kz13Y8FqBaHZhsh3Pg==",
+      "path": "sharppcap/6.3.1",
+      "hashPath": "sharppcap.6.3.1.nupkg.sha512"
+    }
+  }
+}
